@@ -57,11 +57,11 @@ while True:
         c.send("HTTP/1.1 200 OK\n\nFile Uploaded".encode())
 
     c.close()
-    ```
+```
 
-    httpclient.py
+httpclient.py
 
-    ```
+```
     import socket
 
 s = socket.socket()
